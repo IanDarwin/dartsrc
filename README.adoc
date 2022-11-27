@@ -1,0 +1,5 @@
+= DartSrc
+
+A random collection of demos in the https://dart.dev[dart language],
+which underpins the amazing https://flutter.dev[Flutter] SDK for building
+mobile (iOS and Android) and desktop (macOS, Linux, Windows) apps from the same source code.
