@@ -1,7 +1,7 @@
 main() {
-  String nullvar = null;
+  String? nullvar = null;
   try {
-    nullvar.length;
+    nullvar!.length;
   } catch (err) {
     print("Failure: $err");
   }
