@@ -2,7 +2,7 @@ main() {
 	var mylist = [];
 	mylist.add(42);
 	mylist.add(50);
-	// mylist[2] - cannot add this way
+	// mylist[2] = 60; // cannot extend list this way
 	print(mylist);
 
 	var selected = List.filled(25, false, growable: false);
