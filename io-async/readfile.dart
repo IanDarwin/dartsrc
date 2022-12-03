@@ -2,13 +2,13 @@ import 'dart:io';
 final String filename = "data/demo.txt";
 main() async {
   var data = File(filename).readAsStringSync();
-  print("Read from file sync:");
+  print("Read from file synchronously:");
   print(data);
 
   // Better way with Async:
   Future<String> futString = File(filename).readAsString();
   // Do other work, then when you need the contents:
-  print("Read from file async:");
+  print("Read from file async with Future:");
   futString.then((s) => print(s));
 
   // Another way:
