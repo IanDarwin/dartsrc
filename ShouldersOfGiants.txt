@@ -5,9 +5,10 @@ Dart has "seen further" due to the following giants, among others:
 Alan Turing for computing theory;
 Tony Hoare for Algol, and the notion of null values (recanted);
 Dennis Ritchie for C;
-Xerox PARC for SmallTalk, the first widely-used OOP language;
+Xerox PARC for SmallTalk, the first widely-used OOP language
+  (also invented the Internet, the laptop, the iPad, much more...);
 Bjarne Stroustrup for C++;
 Guido von Rossum for Python;
-James Gosling for Java (the standard library closely resembles Java);
+James Gosling for Java (some syntax, and the standard library, closely "resemble" Java);
 Brendan Eich for JavaScript (which has almost no relation to Java except the name;
-see https://darwinsys.com/blog/2022-11-java-vs-javascript/).
+  see https://darwinsys.com/blog/2022-11-java-vs-javascript/).

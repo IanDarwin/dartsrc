@@ -6,3 +6,6 @@ version: 0.0.0
 environment:
   sdk: '>=2.17.0 <3.0.0'
 dev_dependencies: {test: ^1.21.4}
+dependencies:
+  intl: ^0.18.0
+  properties: ^1.0.0

@@ -15,4 +15,5 @@ void main() async {
   print("Sync method: ${computeSync()}");
   print("Async method:");
   double d = await computeAsync();
+  print(d);
 }
