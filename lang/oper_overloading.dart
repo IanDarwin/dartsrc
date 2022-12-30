@@ -4,9 +4,9 @@ class Bar {
   String barkeep;
   Bar(this.id, this.barkeep);
   void drink() {
-    print("Hic!");
+    print("I have the Hiccups!");
   }
-  /// We define == to compare only the names
+  /// We redefine == to compare only the names
   @override
   bool operator==(other) {
     if (other is! Bar) {
