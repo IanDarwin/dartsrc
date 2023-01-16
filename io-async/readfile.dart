@@ -15,4 +15,7 @@ main() async {
   data = await File(filename).readAsString();
   print("Read from file async using await:");
   print(data);
+
+  // A fourth way: the "one-liner"
+  File(filename).readAsString().then((s) => print("Read using read().then():\n$s"));
 }
