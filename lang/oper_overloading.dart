@@ -24,6 +24,7 @@ void main() {
   Bar b1 = Bar(42, 'Ian');
   Bar b2 = Bar(35, 'Ian');
   Bar b3 = Bar(42, 'Katie');
-  print(b1 == b2);  // same name, so equal
-  print(b1 == b3);  // same id, diff names, not equal
+  print("b1 == b2 is ${b1 == b2}");  // same name, so equal
+  print("b1 == b3 is ${b1 == b3}");  // same id, diff names, not equal
+  print("b1 == 42 is ${b1 == 42}");   // false, int 42 is not a Bar
 }
