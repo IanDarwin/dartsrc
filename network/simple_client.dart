@@ -4,7 +4,7 @@ import 'dart:typed_data';
 main() async {
 
   // Connect the socket
-  var socket = await SecureSocket.connect("darwinsys.com", 443);
+  var socket = await Socket.connect("darwinsys.com", 80);
 
   // 'listen' takes a required positional to read,
   // and two keyword args for onDone and onError
