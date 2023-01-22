@@ -1,5 +1,6 @@
 import 'dart:io';
-final String filename = "data/demo.txt";
+//final String filename = "data/demo.txt";
+final filename = "/Users/ian/AppData/local/temp/street-ar.txt";
 main() async {
   var data = File(filename).readAsStringSync();
   print("Read from file synchronously:");
