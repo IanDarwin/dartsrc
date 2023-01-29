@@ -9,12 +9,16 @@ main() {
 	print(selected);
 
 	var madeup = List<Customer>.generate(25, (i) => Customer(i, names[i]));
+	for (int i in [0, 1,2,3,4,5]) {
+		print(madeup[i]);
+	}
 }
 
 class Customer {
 	int id;
 	String name;
 	Customer(this.id, this.name);
+	String toString() => "Customer id $id name $name";
 }
 List<String> names = List.generate(25, (i) => "Customer $i");
 
