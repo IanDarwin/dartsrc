@@ -1,5 +1,5 @@
 enum Color {
-  RED(1), YELLOW(2), GREEN(3);
+  red(1), yellow(2), green(3);
 
   final intVal;
 
@@ -8,7 +8,7 @@ enum Color {
   static Color colorFromString(String input) {
   var found = null;
   Color.values.forEach((f) {
-    if (f.toString() == "Color.${input.toUpperCase()}")
+    if (f.toString() == "Color.${input.toLowerCase()}")
             found = f;
     });
     if (found!=null)
@@ -19,4 +19,5 @@ enum Color {
 
 main() {
 	print(Color.colorFromString('red'));
+	print(Color.colorFromString('azure'));
 }
