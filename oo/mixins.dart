@@ -1,4 +1,7 @@
 class MyMixin {
+  // Class with constructor cannot be used as a mixin
+  // String name;
+  // MyMixin(this.name);
   String getLastUpdate() {
     return DateTime.now().toString();
   }
