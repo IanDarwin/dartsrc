@@ -3,9 +3,10 @@ enum Color {
 
   static Color colorFromString(String input) {
     Color.values.forEach((f) {
-       if (f.toString() == input) {
-           return f;
-       }
+       // This part commented out as it will no longer compile on modern Dart
+       // if (f.toString() == input) {
+       //     return f;
+       // }
     });
     throw 'Unknown Color in string ${input}';
   }
