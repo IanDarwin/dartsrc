@@ -1,8 +1,8 @@
 /// A simple data class with an id number and a name
 class Bar {
   int id;
-  String barkeep;
-  Bar(this.id, this.barkeep);
+  String name;
+  Bar(this.id, this.name);
   void drink() {
     print("Hic!");
   }
@@ -12,12 +12,12 @@ class Bar {
     if (other is! Bar) {
       return false;
     }
-    return other.barkeep == barkeep;
+    return other.name == name;
   }
 
   // Should override hashCode when overriding ==
   @override
-  int get hashCode => barkeep.hashCode;
+  int get hashCode => name.hashCode;
 }
 void main() {
   print("Operator Overloading Demo");
