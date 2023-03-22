@@ -7,7 +7,7 @@ void main() {
   // Create the ZIP archive
   final archive = Archive();
 
-  // Input cane come from a file on dist
+  // Input can come from a file on disk
   archive.addFile(
     ArchiveFile('file1.txt', File('/tmp/name1.txt').lengthSync(), File('/tmp/name1.txt').readAsBytesSync()),
   );
