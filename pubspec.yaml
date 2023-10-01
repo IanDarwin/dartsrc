@@ -9,4 +9,4 @@ dev_dependencies: {test: ^1.21.4}
 dependencies:
   http: ^0.13.5
   intl: ^0.18.0
-  properties: ^1.0.0
+  properties: ^2.1.0
