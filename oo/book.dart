@@ -13,7 +13,7 @@ class Book {
 }
 
 main() {
-	var b = Book('Java Cookbook', 'Ian Darwin', 12.34);
+	var b = Book('Java Cookbook', 'Ian Darwin', 42.34);
 	print(b.describe());
 	print(b.describe2());
 }

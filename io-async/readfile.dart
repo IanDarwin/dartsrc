@@ -1,5 +1,6 @@
 import 'dart:io';
-final String filename = "data/demo.txt";
+//final String filename = "data/demo.txt";
+final filename = "/Users/ian/AppData/local/temp/street-ar.txt";
 main() async {
   var data = File(filename).readAsStringSync();
   print("Read from file synchronously:");
@@ -15,4 +16,7 @@ main() async {
   data = await File(filename).readAsString();
   print("Read from file async using await:");
   print(data);
+
+  // A fourth way: the "one-liner"
+  File(filename).readAsString().then((s) => print("Read using read().then():\n$s"));
 }

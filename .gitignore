@@ -1,7 +1,7 @@
 # Miscellaneous
 *.class
 *.log
-*.pyc
+*.exe
 *.swp
 .DS_Store
 .atom/

@@ -2,13 +2,12 @@ enum Color {
   red, yellow, green;
 
   static Color colorFromString(String input) {
-    var found = null;
     Color.values.forEach((f) {
-      if (f.toString() == "Color.${input.toLowerCase()}")
-              found = f;
-      });
-    if (found!=null)
-       return found;
+       // This part commented out as it will no longer compile on modern Dart
+       // if (f.toString() == input) {
+       //     return f;
+       // }
+    });
     throw 'Unknown Color in string ${input}';
   }
 }
@@ -16,3 +15,4 @@ enum Color {
 main() {
 	print(Color.colorFromString('Red'));
 }
+

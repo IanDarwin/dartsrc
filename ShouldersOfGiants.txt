@@ -10,5 +10,8 @@ Xerox PARC for SmallTalk, the first widely-used OOP language
 Bjarne Stroustrup for C++;
 Guido von Rossum for Python;
 James Gosling for Java (some syntax, and the standard library, closely "resemble" Java);
-Brendan Eich for JavaScript (which has almost no relation to Java except the name;
+Brendan Eich for JavaScript (which has very little relation to Java except the name;
   see https://darwinsys.com/blog/2022-11-java-vs-javascript/).
+AND last but by no means least:
+  All the developers at Google and elsewhere who've contributed to the language tooling
+  and/or contributed packages to pub.dev!
