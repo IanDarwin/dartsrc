@@ -12,4 +12,7 @@ main() {
   print(ian.codeUnits);
   print(ian.runes);
   print(ian.indexOf(" "));
+
+  var s = '''Google asked "Don't you love Dart?"''';
+  print(s);
 }
